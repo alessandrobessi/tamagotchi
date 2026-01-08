@@ -12,27 +12,6 @@
   <em>One pet. Everyone cares for it. Together.</em>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/STYLE-8--BIT-ff00ff?style=flat-square" alt="8-bit">
-  <img src="https://img.shields.io/badge/VIBE-RETRO-00ffff?style=flat-square" alt="Retro">
-  <img src="https://img.shields.io/badge/PET-SHARED-ffff00?style=flat-square" alt="Shared">
-</p>
-
----
-
-```
-    ╔══════════════════════════════════════════════════════════════╗
-    ║                                                              ║
-    ║      ████                          "Take care of me...       ║
-    ║    ██░░░░██                         but only once per        ║
-    ║    ██░░░░██                         visit. I'm everyone's    ║
-    ║      ████████                       responsibility."         ║
-    ║      ██▓▓▓▓██                                                ║
-    ║        ████                                    - The Pet     ║
-    ║                                                              ║
-    ╚══════════════════════════════════════════════════════════════╝
-```
-
 ## The Philosophy
 
 This isn't your typical Tamagotchi. This is **the world's Tamagotchi**.
@@ -44,38 +23,6 @@ Every visitor sees the same pet. Every action affects everyone. When you feed it
 The pet evolves through six life stages, from egg to senior. It can live for days, weeks, maybe longer—if everyone does their part. But stats decay over time. Hunger grows. Happiness fades. Health deteriorates.
 
 If the pet dies, anyone can give it new life. A fresh start. A new name. The cycle continues.
-
----
-
-## Features
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  ► 8-BIT PIXEL ART SPRITES                                      │
-│    Hand-crafted CSS pixel art for each evolution stage          │
-│                                                                 │
-│  ► SHARED GLOBAL STATE                                          │
-│    One pet for all visitors, persisted in Vercel Edge Config    │
-│                                                                 │
-│  ► EVOLUTION SYSTEM                                             │
-│    Egg → Baby → Child → Teen → Adult → Senior                   │
-│                                                                 │
-│  ► ONE ACTION PER VISIT                                         │
-│    Strategic gameplay - choose your action wisely               │
-│                                                                 │
-│  ► REAL-TIME DECAY                                              │
-│    Stats decrease over time - neglect has consequences          │
-│                                                                 │
-│  ► DEATH & REBIRTH                                              │
-│    When health hits zero, anyone can start a new life           │
-│                                                                 │
-│  ► 80s RETRO AESTHETIC                                          │
-│    CRT scanlines, neon colors, pixel fonts                      │
-│                                                                 │
-│  ► CROSS-TAB SYNC                                               │
-│    Actions sync across browser tabs instantly                   │
-└─────────────────────────────────────────────────────────────────┘
-```
 
 ---
 
@@ -200,12 +147,3 @@ TIME        STAGE       SPRITE
     <code>PRESS START TO PLAY</code>
   </sub>
 </p>
-
-```
-        ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-        ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-        ░░░░████░░░░████░░░░████░░░░████░░░░████░░░░░░░░
-        ░░░░████░░░░████░░░░████░░░░████░░░░████░░░░░░░░
-        ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-        ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
