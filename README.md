@@ -91,27 +91,6 @@ pnpm preview
 vercel deploy
 ```
 
-### Project Structure
-
-```
-src/
-├── app.html              # HTML template
-├── app.css               # Global styles
-├── lib/
-│   └── pet.ts            # Pet state management & Edge Config
-└── routes/
-    ├── +page.svelte      # Main UI & game logic
-    └── api/
-        ├── state/        # GET current pet state
-        ├── feed/         # POST feed action
-        ├── play/         # POST play action
-        ├── heal/         # POST heal action
-        └── rebirth/      # POST create new pet
-
-static/
-└── favicon.svg           # 8-bit pixel art favicon
-```
-
 ---
 
 ## Stats & Decay
@@ -144,6 +123,5 @@ TIME        STAGE       SPRITE
 <p align="center">
   <sub>
     Made with pixels and love<br>
-    <code>PRESS START TO PLAY</code>
   </sub>
 </p>
